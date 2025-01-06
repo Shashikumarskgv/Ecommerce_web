@@ -1,15 +1,18 @@
 import React from "react";
-import Hero from "./components/Hero/Hero";
-import Products from "./components/Products/Products";
+import Products from "./Components/Products/Products";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Banner from "./components/Banner/Banner";
-import Subscribe from "./components/Subscribe/Subscribe";
-import Testimonials from "./components/Testmonials/Testmonials";
-import Footer from "./components/Footer/Footer";
-import Popup from "./components/Popup/Popup";
+import Banner from "./Components/Banner/Banner";
+import Subscribe from "./Components/Subscribe/Subscribe";
+import Testimonials from "./Components/Testmonials/Testmonials";
+import Footer from "./Components/Footer/Footer";
+import Popup from "./Components/Popup/Popup";
 import Navbar from "./Components/Navbar/Navbar";
 import TopProducts from "./Components/TopProducts/TopProducts";
+import Hero from "./Components/Hero/Hero";
+
+
+
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
